@@ -1,0 +1,21 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
+.titulo-principal{
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.titulo-estreno{
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.articulo-estrenos{
+    width: 100%;
+    max-width: 1000px;
+    padding: 15px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}

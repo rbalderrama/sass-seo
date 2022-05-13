@@ -1,0 +1,81 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
+.input{
+    background-color: $color-blanco;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+}
+
+.main-contacto{
+    background-color: $color-fondo;
+    .titulo-contacto{
+    text-align: center;
+    }
+    .formulario-contacto{
+        .formulario-contacto-fieldset{
+        width: 50%;
+        margin: 40px auto 100px;
+        border: none;
+        display: grid;
+        grid-template-columns: 1fr 80px;
+        grid-template-areas: 
+        "label-nombre label-nombre"
+        "nombre nombre"
+        "label-email label-email"
+        "email email"
+        "label-telefono label-telefono"
+        "telefono telefono"
+        "label-mensaje label-mensaje"
+        "mensaje mensaje"
+        "none enviar";
+        gap: 10px;
+            .label-nombre{
+                grid-area: label-nombre;
+            }
+            .label-email{
+                grid-area: label-email;
+            }
+            .label-telefono{
+                grid-area: label-telefono;
+            }
+            .label-mensaje{
+                grid-area: label-mensaje;
+            }
+            
+            label{
+                text-align: left;
+                padding-left: 10px;
+            }
+            #nombre{
+                grid-area: nombre;
+                @extend .input
+            }
+            #email{
+                grid-area: email;
+                @extend .input
+            }
+            #telefono{
+                grid-area: telefono;
+                @extend .input
+            }
+            #mensaje{
+                grid-area: mensaje;
+                @extend .input;
+                height: 150px;
+            }
+            #enviar{
+                grid-area: enviar;
+                background-color: $color-claro;
+                width: 80px;
+                height: 40px;
+                border: none;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,28 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+footer{ 
+    width: 100%;
+    margin-top: 100px;
+    background-color: #20515F;
+  
+}
+.h5-footer{
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+
+}
+.img-redes{
+    width: 30px;
+    padding: 5px;
+}
+.a-redes{
+    color: white;
+}
+
+.img-redes{
+    width: 30px;
+    padding: 5px;    
+}

@@ -1,0 +1,31 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
+.articulo-ranking {
+    width: 100%;
+    max-width: 1000px;
+    padding: 15px;
+    font-family: $font1;
+
+    .titulo-ranking {
+        margin-top: 40px;
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .articulo-introductorio {
+        width: 100%;
+        padding: 15px;
+        font-family: $font1;
+        font-size: 20px;
+    }
+    
+
+    .imagen-sherlock {
+        height: 500px;
+        width: auto;
+    }
+    
+}

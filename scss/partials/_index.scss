@@ -1,0 +1,129 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $color-fondo;
+}
+
+.fondo{
+    background-color: $background-color;
+        
+}
+
+/*Encabezado*/
+
+
+
+.titulo{
+    font-size: 35px;
+    margin: 15px;
+    
+}
+
+
+.section-serie{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: 
+    "titulo-serie1 titulo-serie1"
+    "video-serie video-serie"
+    "parrafo-serie1 parrafo-serie1";
+    gap:20px;
+}
+
+
+.articulo-serie{
+    width: 100%;
+    max-width: 1000px;
+    margin:auto;
+    padding: 10px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    margin-top: 20px;      
+}
+
+
+.video-serie{
+    grid-area: video-serie;
+}
+.titulo-serie1{
+    grid-area: titulo-serie;
+    font-size: 40px;
+    margin-bottom: 40px;
+        }
+
+.parrafo-serie1{
+    grid-area: parrafo-serie;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*Segundo Articulo*/
+
+.section-serie{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: 
+    "titulo-serie2 titulo-serie2"
+    "imagen-you imagen-you"
+    "parrafo-serie2 parrafo-serie2";
+    gap:20px;
+}
+
+.articulo-serie2{
+    width: 100%;
+    max-width: 1000px;
+    margin:auto;
+    padding: 10px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    border-top: 6px solid green;   
+    margin-top: 25px;
+    }
+
+.titulo-serie2{
+    grid-area: titulo-serie2;
+    font-size: 40px;
+    margin-bottom: 40px;
+        }
+
+.parrafo-serie2{
+    grid-area: parrafo-serie;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    }
+
+.imagen-you{
+    grid-area: imagen-you;
+    width: 500px;
+    height: 300px;
+    margin: 8px;
+    
+}
+
+footer{ 
+    width: 100%;
+    margin-top: 100px;
+    background-color: $color-azul;
+  
+}
+.h5-footer{
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+
+}
+.img-redes{
+    width: 30px;
+    padding: 5px;
+}
+.a-redes{
+    color: white;
+}
+
+.img-redes{
+    width: 30px;
+    padding: 5px;    
+}

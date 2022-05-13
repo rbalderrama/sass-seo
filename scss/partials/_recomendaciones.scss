@@ -1,0 +1,74 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
+.titulo-recomendaciones{
+    font-size: 42px;
+    margin-bottom: 42px;
+    animation-name: prueba;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    }
+
+    @keyframes prueba{
+        0%{
+            font-size: 48px;
+        }
+        50%{
+            font-size: 50px;
+            color: red;
+                }
+        100%{
+            font-size: 52px;
+        }                    
+    
+    }
+
+
+.articulo-recomendaciones{
+    width: 100%;
+    max-width: 1000px;
+    padding: 60px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    margin: auto;
+}
+
+.titulo-recomendaciones2{
+    font-size: 35px;
+    margin-bottom: 35px;
+    animation-name: prueba2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;    
+}
+.articulo-recomendaciones2{
+    width: 100%;
+    max-width: 1000px;
+    padding: 60px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    margin: auto;
+    border-top: 6px solid rgb(142, 161, 142);  
+}
+
+
+@keyframes prueba2{
+0%{
+    font-size: 32px;
+}
+50%{
+    font-size: 35px;
+    
+}    
+    
+100%{
+    font-size: 38px;
+}                    
+}
+
+.foto-recomendaciones{
+    width: 250px;
+    height: 400px;
+    margin: 0px;
+}
