@@ -1,14 +1,14 @@
 {
   "name": "serieland",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pagina web dedicada al mundo de las series.",
   "main": "index.js",
   "scripts": {
     "build-css": "node-sass --include-path scss scss/prueba.scss css/prueba.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ramiro Balderrama",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^7.0.1",
